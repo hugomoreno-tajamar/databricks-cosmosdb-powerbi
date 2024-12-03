@@ -16,7 +16,6 @@ DB_NAME = os.getenv("COSMOS_DB_NAME")  # Variable de entorno para la base de dat
 COLLECTION_NAME = os.getenv("COSMOS_COLLECTION_NAME")  # Nombre de la colección
 CONNECTION = os.getenv("COSMOS_CONNECTION_STRING")  # Variable de entorno para la conexión a Cosmos DB
 
-print(CONNECTION)
 
 # Función para insertar datos en Cosmos DB
 def insert_weather_data(client, data):
